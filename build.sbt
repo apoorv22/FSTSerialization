@@ -17,7 +17,7 @@ lazy val pmmlold = project
 lazy val pmmlnew = project
   .in(file("pmml-new"))
   .settings(name := "pmml-new", libraryDependencies ++= Seq("org.jpmml" % "pmml-model" % "1.4.7","org.jpmml" % "pmml-evaluator" % "1.4.3"),
-    dependencyOverrides ++= Seq("org.jpmml" % "pmml-model" % "1.4.6")
+    dependencyOverrides ++= Seq("org.jpmml" % "pmml-model" % "1.4.7")
   )
  .dependsOn(common)
 
